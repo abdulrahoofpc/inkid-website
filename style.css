@@ -348,7 +348,7 @@ body{
 .cards{
     /* padding: 50px 35px; */
     border-radius: 16px;
-    /* backdrop-filter: blur(20px); */
+    overflow: hidden;
     background-color: rgba(255,255,255,0.2);
     border: 3px solid rgba(255,255,255,0.3) ;
     box-shadow: 0 4px 30px rgb(0,0,0,0.1);
@@ -505,7 +505,7 @@ i.fa-solid.fa-angle-down.fa-beat{
 @media all and (max-width:1180px){
     .rows{
         justify-content: flex-start;
-        margin-left: 8%;
+        margin-left: 3%;
     }
     .first-do {
         width: none;
@@ -821,6 +821,41 @@ i.fa-solid.fa-angle-down.fa-beat{
         font-size: 11px;
     }
     
+    
+}
+@media all and (max-width:585px){
+    .tops {
+        top: 27%;
+        left: 10%;
+    }
+
+}
+@media all and (max-width:538px){
+    #footmain p {
+        font-size: 7px;
+    }
+}
+@media all and (max-width:536px){
+    .card-main{
+        width: 90%;
+    }
+    .card-topimg img{
+        height: 40px;
+    }
+    .cards {
+        height: 223px;
+     }
+     .foot-head .foot-left-box-head h1 {
+        font-size: 51px;
+    }
+    .foot-head .foot-right-box-head .foot-d2 span {
+        font-size: 21px;
+    }
+    .foot-head .foot-right-box-head .foot-d1 span {
+        font-size: 30px;
+    }
+    
+        
 }
 @media all and (max-width:510px){
     #book .row{
@@ -832,6 +867,8 @@ i.fa-solid.fa-angle-down.fa-beat{
     }
     #book .col-4.ps-0{
         margin: auto;
+        width: 50%;
+        margin-left: 40%;
     }
     .book-p {
         font-size: 9px;
@@ -856,7 +893,7 @@ i.fa-solid.fa-angle-down.fa-beat{
 }
 @media all and (max-width:567px){
     #footmain p {
-        font-size: 9px;
+        font-size: 7px;
     }
 
 }
@@ -874,8 +911,33 @@ i.fa-solid.fa-angle-down.fa-beat{
         font-size: 35px;
         letter-spacing: 1px;
     }
+    
 
 }
+@media all and (max-width:501px){
+    .foot-right-box-head .foot-d1 {
+        margin-bottom: -15px;
+    }
+    .foot-head .foot-left-box-head h1 {
+        font-size: 40px;
+    }
+    .foot-head .foot-right-box-head .foot-d1 span {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .foot-head .foot-right-box-head .foot-d2 span {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+    #footmain p {
+        font-size: 6px;
+    }
+    .foot-head {
+        width: 100%;
+    }
+
+}
+
 @media all and (max-width:473px){
     .do-box {
         padding: 6% 4%;
@@ -886,8 +948,159 @@ i.fa-solid.fa-angle-down.fa-beat{
     .book-top .book-pp{
         font-size: 15px;
     }
+    
 
 }
+@media all and (max-width:464px){
+    .tops h1 {
+        font-size: 21px;
+    }
+    .do-img {
+        top: 23%;
+        width: 214px;
+    }
+    .first-do {
+        height: 245px;
+    }
+
+}
+@media all and (max-width:432px){
+    .right-box-p{
+        font-size: 9px;
+    }
+    .box-head .left-box-head h1 {
+        font-size: 78px;
+    }
+    .box-head .right-box-head .d1 span {
+        font-size: 38px;
+    }
+    .box-head .right-box-head .d2 span {
+        font-size: 39px;
+    }
+    .do-box {
+        padding: 10% 4%;
+    }
+    .head-collab.col-3 {
+        width: 32%;
+    }
+    
+    
+}
+@media all and (max-width:451px){
+    .card-bottomcont p {
+        font-size: 9px;
+    }
+    
+    
+    
+    
+
+}
+@media all and (max-width:457px){
+    #footmain p {
+        font-size: 6px;
+    }
+
+}
+@media all and (max-width:417px){
+    .right-box-p{
+        font-size: 9px;
+    }
+    .box-head .left-box-head h1 {
+        font-size: 78px;
+    }
+    .box-head .right-box-head .d1 span {
+        font-size: 38px;
+    }
+    .box-head .right-box-head .d2 span {
+        font-size: 39px;
+    }
+    .do-box {
+        padding: 10% 4%;
+    }
+    
+    #footmain p {
+        font-size: 5px;
+    }
+    
+}
+@media all and (max-width:409x){
+    .foot-d1 {
+        font-size: medium;
+    }
+}
+@media all and (max-width:400px){
+    .do-img {
+        top: 26%;
+        width: 190px;
+    }
+    .tops h1 {
+        font-size: 20px;
+    }
+
+}
+
+@media all and (max-width:388px){
+    .box-head .left-box-head h1 {
+        font-size: 72px;
+    }
+    .box-head .right-box-head .d1 span {
+        font-size: 35px;
+    }
+    .box-head .right-box-head .d2 span {
+        font-size: 37px;
+    }
+    .do-img {
+        top: 26%;
+        width: 170px;
+    }
+}
+@media all and (max-width:373px){
+    .foot-head .foot-right-box-head .foot-d2 span {
+        font-size: 17px;
+    }
+    .foot-head .foot-right-box-head .foot-d1 span {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .head-logo-icon.col-2 {
+        width: 19%;
+    }
+    
+}
+@media all and (max-width:377px){
+    #footmain p {
+        font-size: 4px;
+    }
+}
+
+@media all and (max-width:379px){
+    .tops h1 {
+        letter-spacing: 0px;
+    }
+
+}
+@media all and (max-width:363px){
+    .right-box-p {
+        font-size: 8px;
+    }
+
+}
+@media all and (max-width:363px){
+    .do-img {
+        top: 28%;
+        width: 160px;
+    }
+    
+
+}
+@media all and (max-width:330px){
+    .first-do {
+        height: 231px;
+    }
+
+}
+
 
 
 
