@@ -261,7 +261,7 @@ body{
     margin-bottom: -45px;
 }
 .right-box-p{
-    font-family: cursive;
+    font-family: system-ui;
     font-size: 15px;
 
 }
@@ -1057,10 +1057,10 @@ i.fa-solid.fa-angle-down.fa-beat{
 }
 @media all and (max-width:373px){
     .foot-head .foot-right-box-head .foot-d2 span {
-        font-size: 17px;
+        font-size: 16px;
     }
     .foot-head .foot-right-box-head .foot-d1 span {
-        font-size: 25px;
+        font-size: 23px;
         letter-spacing: 1px;
     }
     .head-logo-icon.col-2 {
