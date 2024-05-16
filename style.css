@@ -1519,14 +1519,14 @@ i.fa-solid.fa-angle-down.fa-beat{
     margin-bottom: -27px;
 }
 .sol1 h2{
-    font-family: cursive;
+    font-family: fantasy;
     font-size: 55px;
 
 }
 .sol2 {
 }
 .sol2 h2{
-    font-family: cursive;
+    font-family: fantasy;
     font-size: 58px;
 
 }
@@ -1737,6 +1737,7 @@ i.fa-solid.fa-angle-down.fa-beat{
 @media all and (max-width:950px){
     .academic-body{
         height: 240px;
+        overflow: hidden;
     }
     .academic-body-leftbox{
         padding: 108px 0;
@@ -1827,6 +1828,7 @@ i.fa-solid.fa-angle-down.fa-beat{
     }
     .academic-body2{
         height: 415px;
+        overflow: hidden;
     }
     .academic-body2-leftbox {
         padding: 205px 0;
@@ -1839,13 +1841,13 @@ i.fa-solid.fa-angle-down.fa-beat{
 @media all and (max-width:776px){
     .moral-found {
         display: block;
-        margin-left: 20%;
+        margin-left: 50px;
     }
     .box1-cont-list{
         padding-bottom: 12%;
     }
     .box1-cont ul li {
-        line-height: 2;
+        /* line-height: 2; */
         font-size: 17px;
     }
     .moral-box1 {
@@ -1887,6 +1889,13 @@ i.fa-solid.fa-angle-down.fa-beat{
     .moral-box1 {
         width: 370px;
     }
+    .academic-head h4 {
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+    .soulution-spot-cont h1 {
+        font-size: 33px;
+    }
 
 }
 @media all and (max-width:557px){
@@ -1895,6 +1904,9 @@ i.fa-solid.fa-angle-down.fa-beat{
     }
     .academic-body2-rightbox p{
         font-size: 14px;
+    }
+    .solu-programs-sub-head h4 {
+        font-size: 24px;
     }
 
     
@@ -1908,18 +1920,136 @@ i.fa-solid.fa-angle-down.fa-beat{
         font-size: 14px;
         line-height: 20px;
     }
+    .soulution-spot-cont {
+        top: 21%;
+    }
+    .soulution-spot-cont h1 {
+        font-size: 30px;
+    }
 }
 @media all and (max-width:487px){
     .academic-body2-rightbox p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 21px;
     }
     .academic-body-rightbox p {
         font-size: 13px;
         line-height: 2;
     }
+    .moral-box1 {
+        width: 320px;
+    }
+    .solu-programs-sub-head h4 {
+        font-size: 19px;
+    }
+    .sol1 h2 {
+        font-size: 40px;
+    }
+    .sol2 h2 {
+        font-size: 42px;
+    }
+    .sol1 {
+        margin-bottom: -24px;
+    }
+}
+@media all and (max-width:487px){
+    .moral-box1 {
+        width: 280px;
+    }
+    .box1-cont ul li {
+        /* line-height: ; */
+        font-size: 15px;
+    }
+    .academic-body-rightbox p {
+        font-size: 12px;
+    }
 
 }
+
+@media all and (max-width:449px){
+    .academic-body-rightbox p {
+        font-size: 11px;
+    }
+    .academic-body {
+        height: 205px;
+    }
+
+    
+
+}
+@media all and (max-width:421px){
+    .academic-body-rightbox p {
+        font-size: 10px;
+    }
+    .soulution-spot-cont h1 {
+        font-size: 26px;
+    }
+}
+@media all and (max-width:433px){
+    .academic-body2-rightbox p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .sol2 h2 {
+        font-size: 38px;
+    }
+    .sol1 h2 {
+        font-size: 38px;
+    }
+}
+@media all and (max-width:400px){
+    .academic-body2-rightbox p {
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .soulution-spot-cont h1 {
+        font-size: 21px;
+    }
+}
+@media all and (max-width:373px){
+    .moral-box1 {
+        width: 250px;
+    }
+
+}
+@media all and (max-width:379px){
+    .solu-programs-sub-head h4 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+@media all and (max-width:329px){
+    .moral-box1 {
+        width: 220px;
+    }
+    .soulution-spot-cont h1 {
+        font-size: 19px;
+    }
+
+}
+@media all and (max-width:340px){
+    .acastyle p{
+        font-size: 9px;
+    }
+
+}
+@media all and (max-width:339px){
+    .academic-body-rightbox p {
+        font-size: 9px;
+    }
+
+}
+
+@media all and (max-width:391px){
+    .academic-body-rightbox p {
+        font-size: 9px;
+    }
+    .academic-body {
+        height: 185px;
+    }
+
+}
+
 
 
 
