@@ -1098,9 +1098,21 @@ i.fa-solid.fa-angle-down.fa-beat{
     .first-do {
         height: 231px;
     }
+    
+}
+@media all and (max-width:330px){
+    .foot-head .foot-left-box-head h1 {
+        font-size: 35px;
+    }
+    .foot-head .foot-right-box-head .foot-d1 span {
+        font-size: 22px;
+        /* letter-spacing: 1px; */
+    }
+    .foot-head .foot-right-box-head .foot-d2 span {
+        font-size: 15px;
+    }
 
 }
-
 
 
 
