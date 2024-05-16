@@ -127,12 +127,24 @@ body{
     border-radius: 17px;
     width: 100%;
     bottom: 63px;
+    padding: 5% 0;
+    margin: auto;
+    
 
 }
 .header.active .head-list{
     display: none;
 }
-
+.head-list ul{
+    list-style: none;
+}
+.head-list ul li{
+    margin-bottom: 10px;
+}
+.head-list ul li a{
+    color: #fff;
+    font-weight: 900;
+}
 
 
 
@@ -1566,6 +1578,9 @@ i.fa-solid.fa-angle-down.fa-beat{
     .who {
         width: 85%;
     }
+    .about-spot-cont h1 {
+        font-size: 21px;
+    }
 
 }
 @media all and (max-width:372px){
@@ -1595,6 +1610,10 @@ i.fa-solid.fa-angle-down.fa-beat{
     .t2 h1 {
         font-size: 22px;
     }
+    .about-spot-cont h1 {
+        font-size: 21px;
+        letter-spacing: 1px;
+    }
 }
 
 @media all and (max-width:377px){
@@ -1617,6 +1636,9 @@ i.fa-solid.fa-angle-down.fa-beat{
     }
     .t3 h1 {
         font-size: 19px;
+    }
+    .about-spot-cont h1 {
+        font-size: 20px;
     }
 }
 
