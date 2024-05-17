@@ -16,9 +16,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <!-- animation -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <!-- animation -->
-        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+        <!-- aos animations -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- aos js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
 </head>
 <body style="background: rgb(233,217,231);
@@ -47,8 +48,8 @@ background: linear-gradient(90deg, rgba(233,217,231,1) 0%, rgba(233,221,232,1) 4
                 <img src="./image/about-bg2.png" class="d-block w-100" alt="...">
               </div>
               <div class="about-spot-cont">
-                    <h1 class="">Building Character,</h1>
-                    <h1 class="">Shaping Tomorrow with Inkid</h1>
+                  <h1 class="in-left" data-aos="zoom-in-right">Building Character,</h1>
+                  <h1 class="" data-aos="zoom-in-right">Shaping Tomorrow with Inkid</h1>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -62,7 +63,7 @@ background: linear-gradient(90deg, rgba(233,217,231,1) 0%, rgba(233,221,232,1) 4
           </div>
     </section>
        <!-- --------------------header-bar section---------------------------------------->
-    <nav class="header">
+    <nav class="header" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="5000">
       <div class="hed">
         <div class="headers row">
           <div class="head-logo-icon col-2">
@@ -118,7 +119,7 @@ background: linear-gradient(90deg, rgba(233,217,231,1) 0%, rgba(233,221,232,1) 4
                 </div>
             </div>
             <div class="col-7 about-right">
-                <img src="./image/B2.png" alt="" width="100%" height="100%">
+                <img  data-aos="flip-left" src="./image/B2.png" alt="" width="100%" height="100%">
             </div>
         </div>
     </section>
@@ -126,7 +127,7 @@ background: linear-gradient(90deg, rgba(233,217,231,1) 0%, rgba(233,221,232,1) 4
 
     <section id="vission-mission">
       <div class="vi-mis">
-        <div class="vis1 first-v1">
+        <div class="vis1 first-v1" data-aos="zoom-out" data-aos-duration="5000">
           <div class="v1-box">
             <div class="vbox-head">
                 <h3>Vision</h3>
@@ -146,7 +147,7 @@ background: linear-gradient(90deg, rgba(233,217,231,1) 0%, rgba(233,221,232,1) 4
           </div>
         </div>
         <!-- second box -->
-        <div class=" vis2 vis1 first-v1">
+        <div class=" vis2 vis1 first-v1" data-aos="zoom-out" data-aos-duration="5000">
           <div class="v1-box">
             <div class="vbox-head">
               <h3>Mission</h3>
@@ -171,10 +172,10 @@ background: linear-gradient(90deg, rgba(233,217,231,1) 0%, rgba(233,221,232,1) 4
     <section id="who">
       <div class="who">
         <div class="who-head">
-          <h1 class="whoh1">Who</h1>
+          <h1 class="whoh1" data-aos="fade-left">Who</h1>
         </div>
         <div class="who-bottm">
-          <p>Welcome to Inkid, where education meets character, and values shape futures. At<br>
+          <p data-aos="zoom-out" data-aos-duration="5000">Welcome to Inkid, where education meets character, and values shape futures. At<br>
             Inkid, we believe in going beyond textbooks, nurturing not just smart minds, but good
             hearts. Explore the journey of holistic learning with us!</p>
         </div>
@@ -223,8 +224,9 @@ background: linear-gradient(90deg, rgba(233,217,231,1) 0%, rgba(233,221,232,1) 4
         </div>
       </div>
     </footer>
-
-
+    <script>
+      AOS.init();
+    </script>
     <!-- script -->
     <script src="./script.js"></script>
     <!--  -->

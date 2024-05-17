@@ -85,6 +85,9 @@ body{
     padding-top: 12px;
     padding-bottom: 12px;
 }
+.head-butn1 a:hover{
+    color: cadetblue;
+}
 .head-butn1 button {
     border-radius: 10px;
     /* padding: 7px 31px; */
@@ -101,7 +104,9 @@ body{
     padding-bottom: 12px;
     border-radius: 13px;
 }
-
+.head-collab-btn a:hover{
+    color: cadetblue;
+}
 .head-collab-btn a{
     color: #fff;
     text-decoration: none;
@@ -129,10 +134,15 @@ body{
     bottom: 63px;
     padding: 5% 0;
     margin: auto;
+    text-align: left;
+    
     
 
 }
 .header.active .head-list{
+    display: block;
+}
+.header .head-list{
     display: none;
 }
 .head-list ul{
@@ -140,6 +150,9 @@ body{
 }
 .head-list ul li{
     margin-bottom: 10px;
+}
+.head-list ul li a:hover{
+    color: deepskyblue;
 }
 .head-list ul li a{
     color: #fff;
