@@ -2254,6 +2254,7 @@ i.fa-solid.fa-angle-down.fa-beat{
 
 }
 .form-body {
+    overflow: hidden;
 
 }
 .form-body input{
