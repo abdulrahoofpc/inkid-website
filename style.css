@@ -2410,5 +2410,11 @@ i.fa-solid.fa-angle-down.fa-beat{
     }
 
 }
+@media all and (max-width:409px){
+    .rc-anchor-normal-footer {
+        display: none;
+    }
+
+}
 
 /* #########################ANIMASIONS##################################### */
